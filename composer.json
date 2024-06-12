@@ -1,0 +1,24 @@
+{
+  "name": "dsjsdz/signatory",
+  "description": "Convert some data of Array to a base64 string and encrypt it.",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dsjsdz\\Signatory\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "cleveng",
+      "email": "cleveng@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^11.2"
+  }
+}
